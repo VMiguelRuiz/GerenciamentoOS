@@ -1,4 +1,4 @@
-package br.com.gerenciamentoOS.modelo.os;
+package br.com.gerenciamentoOS.modelo;
 
 import java.util.Calendar;
 import java.util.Date;

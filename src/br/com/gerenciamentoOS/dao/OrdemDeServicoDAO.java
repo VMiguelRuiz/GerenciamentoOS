@@ -1,6 +1,6 @@
-package br.com.gerenciamentoOS.dao.os;
+package br.com.gerenciamentoOS.dao;
 
-import br.com.gerenciamentoOS.modelo.os.OrdemDeServico;
+import br.com.gerenciamentoOS.modelo.OrdemDeServico;
 import java.sql.Connection;
 
 import java.sql.PreparedStatement;

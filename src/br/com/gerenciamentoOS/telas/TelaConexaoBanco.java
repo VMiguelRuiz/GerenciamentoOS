@@ -1,8 +1,8 @@
 package br.com.gerenciamentoOS.telas;
 
 import br.com.gerenciamentoOS.connectionFactory.ConnectionFactory;
-import br.com.gerenciamentoOS.dao.cliente.ClienteDAO;
-import br.com.gerenciamentoOS.dao.os.OrdemDeServicoDAO;
+import br.com.gerenciamentoOS.dao.ClienteDAO;
+import br.com.gerenciamentoOS.dao.OrdemDeServicoDAO;
 import static br.com.gerenciamentoOS.telas.TelaPrincipal.osDAO;
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,7 +1,7 @@
-package br.com.gerenciamentoOS.dao.cliente;
+package br.com.gerenciamentoOS.dao;
 
 import br.com.gerenciamentoOS.connectionFactory.ConnectionFactory;
-import br.com.gerenciamentoOS.modelo.cliente.Cliente;
+import br.com.gerenciamentoOS.modelo.Cliente;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -1,4 +1,4 @@
-package br.com.gerenciamentoOS.modelo.cliente;
+package br.com.gerenciamentoOS.modelo;
 
 public class Cliente {
 

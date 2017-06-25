@@ -1,15 +1,15 @@
-package br.com.gerenciamentoOS.controle.cliente;
-import br.com.gerenciamentoOS.dao.cliente.ClienteDAO;
-import br.com.gerenciamentoOS.modelo.cliente.Cliente;
+package br.com.gerenciamentoOS.controle;
+import br.com.gerenciamentoOS.dao.ClienteDAO;
+import br.com.gerenciamentoOS.modelo.Cliente;
 import java.sql.Connection;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
-public class MetodosCliente {
+public class CTLCliente {
     
     private ClienteDAO clienteDAO;
     
-    public MetodosCliente(ClienteDAO clienteDAO){
+    public CTLCliente(ClienteDAO clienteDAO){
         this.clienteDAO = clienteDAO;
     }
     

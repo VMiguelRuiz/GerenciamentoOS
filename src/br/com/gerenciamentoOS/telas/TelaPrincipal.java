@@ -1,7 +1,7 @@
 package br.com.gerenciamentoOS.telas;
 
-import br.com.gerenciamentoOS.dao.cliente.ClienteDAO;
-import br.com.gerenciamentoOS.dao.os.OrdemDeServicoDAO;
+import br.com.gerenciamentoOS.dao.ClienteDAO;
+import br.com.gerenciamentoOS.dao.OrdemDeServicoDAO;
 import javax.swing.JOptionPane;
 
 public class TelaPrincipal extends javax.swing.JFrame {

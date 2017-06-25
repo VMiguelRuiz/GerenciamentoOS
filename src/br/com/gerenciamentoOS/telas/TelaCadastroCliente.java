@@ -5,9 +5,9 @@
  */
 package br.com.gerenciamentoOS.telas;
 
-import br.com.gerenciamentoOS.controle.cliente.MetodosCliente;
-import br.com.gerenciamentoOS.dao.cliente.ClienteDAO;
-import br.com.gerenciamentoOS.modelo.cliente.Cliente;
+import br.com.gerenciamentoOS.controle.CTLCliente;
+import br.com.gerenciamentoOS.dao.ClienteDAO;
+import br.com.gerenciamentoOS.modelo.Cliente;
 import java.awt.Dimension;
 import java.sql.SQLException;
 import java.util.List;
@@ -346,7 +346,7 @@ public class TelaCadastroCliente extends javax.swing.JInternalFrame {
                 JOptionPane.showMessageDialog(null, "Preencha todos os campos para adicionar um novo Cliente", "Atenção", JOptionPane.INFORMATION_MESSAGE);
             } else {
                 //Instanciando classe com o metodo para adicionar cliente
-                MetodosCliente cliente = new MetodosCliente(clienteDAO);
+                CTLCliente cliente = new CTLCliente(clienteDAO);
                 //Chamando metodo para adicionar cliente
                 cliente.adicionarCliente(nome, endereco, telefone, email);
 
@@ -385,7 +385,7 @@ public class TelaCadastroCliente extends javax.swing.JInternalFrame {
                     int idCliente = Integer.parseInt(idCli);
 
                     //Instanciando classe com o metodo para alterar o cliente
-                    MetodosCliente cliente = new MetodosCliente(clienteDAO);
+                    CTLCliente cliente = new CTLCliente(clienteDAO);
                     //chamando metedo alterar cliente
                     cliente.alterarCliente(idCliente, nome, endereco, telefone, email);
 
@@ -414,7 +414,7 @@ public class TelaCadastroCliente extends javax.swing.JInternalFrame {
                 int idCliente = Integer.parseInt(idCli);
 
                 //Instanciando classe com o metodo para adicionar cliente
-                MetodosCliente cliente = new MetodosCliente(clienteDAO);
+                CTLCliente cliente = new CTLCliente(clienteDAO);
                 //Chamando metodo para excluir cliente
                 cliente.excluirCliente(idCliente);
 

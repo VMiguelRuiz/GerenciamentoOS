@@ -1,9 +1,9 @@
 package br.com.gerenciamentoOS.telas;
 
-import br.com.gerenciamentoOS.dao.cliente.ClienteDAO;
-import br.com.gerenciamentoOS.dao.os.OrdemDeServicoDAO;
-import br.com.gerenciamentoOS.modelo.cliente.Cliente;
-import br.com.gerenciamentoOS.modelo.os.OrdemDeServico;
+import br.com.gerenciamentoOS.dao.ClienteDAO;
+import br.com.gerenciamentoOS.dao.OrdemDeServicoDAO;
+import br.com.gerenciamentoOS.modelo.Cliente;
+import br.com.gerenciamentoOS.modelo.OrdemDeServico;
 import java.awt.event.KeyEvent;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
